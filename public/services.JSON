@@ -1,0 +1,38 @@
+ [
+  {
+    "id": 1,
+    "name": "Reina Repair",
+    "photo": "https://files.fm/thumb_show.php?i=t39fh2awz",
+    "Description": "The images we see are made up of light reflected from the objects we look at. This light enters the eye through the cornea, which acts like a window at the front of the eye. The amount of light entering the eye is controlled by the pupil, which is surrounded by the iris – the coloured part of the eye"
+  },
+  {
+    "id": 2,
+    "name": "Glaucoma & Cornea",
+    "photo": "https://files.fm/thumb_show.php?i=hbdpmb8jt",
+    "Description": "In the 1990s, the Ocular Hypertension Treatment Studies (OHTS) examined a large group of glaucoma patients and identified a number of risk factors for developing primary open angle glaucoma. The first risk factor was age – the older we get the higher the risk of having glaucoma. Age is a major risk factor for developing glaucoma with the majority of cases developing as we reach our 60s and 70s."
+  },
+  {
+    "id": 3,
+    "name": "Dry Eye Surgery",
+    "photo": "https://files.fm/thumb_show.php?i=q5qjv4bv9",
+    "Description": "For most people with occasional or mild dry eye symptoms, it's enough to regularly use over-the-counter eyedrops (artificial tears). If your symptoms are persistent and more serious, you have other options. What you do depends on what's causing your dry eyes."
+  },
+  {
+    "id": 4,
+    "name": "Cornea Transplant",
+    "photo": "https://files.fm/thumb_show.php?i=4uxmsrhva",
+    "Description": "If surgery involves the transplantation of the outer cornea, the new outer cornea is held in place with stitches, which usually stay in for more than 12 months."
+  },
+  {
+    "id": 5,
+    "name": "Surgical Procedure",
+    "photo": "https://files.fm/thumb_show.php?i=s6z2jgy5j",
+    "Description": "In eyes with normal vision, the cornea bends (refracts) light precisely onto the retina at the back of the eye. But with nearsightedness (myopia), farsightedness (hyperopia) or astigmatism, the light is bent incorrectly, resulting in blurred vision."
+  },
+  {
+    "id": 6,
+    "name": "Laser Surgery",
+    "photo": "https://files.fm/thumb_show.php?i=dtvvcf9am",
+    "Description": "Some people with poor outcomes from LASIK surgical procedures report a significantly reduced quality of life because of vision problems or physical pain associated with the surgery. A small percentage of patients may need to have another surgery because their condition is over- or under-corrected. Some patients need to wear contact lenses or glasses even after treatment."
+  }
+]
