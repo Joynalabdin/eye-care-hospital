@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCdxc_wtiTH-sKDmj-sLIhY9olMHPX_LrE",
-    authDomain: "eye-care-hospital-1f226.firebaseapp.com",
-    projectId: "eye-care-hospital-1f226",
-    storageBucket: "eye-care-hospital-1f226.appspot.com",
-    messagingSenderId: "560027686294",
-    appId: "1:560027686294:web:8438185492f4b5242939b7"
-  };
+  apiKey: "AIzaSyCiwQKhJj1ZlvFihPNUDY2JGYlGob56n9s",
+  authDomain: "care-hospital-d0c3a.firebaseapp.com",
+  projectId: "care-hospital-d0c3a",
+  storageBucket: "care-hospital-d0c3a.appspot.com",
+  messagingSenderId: "8793011824",
+  appId: "1:8793011824:web:98337f274a36a32bb7a6b5"
+};
 
   export default firebaseConfig;

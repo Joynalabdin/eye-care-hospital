@@ -4,7 +4,6 @@ import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import ServiceDetails from './Components/ServiceDetails/ServiceDetails';
 import Login from './Components/Login/Login';
 import Header from './Components/Header/Header';
-import Medicine from './Components/Medicine/Medicine';
 import Register from './Components/Register/Register';
 import AuthProvider from './Components/context/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
