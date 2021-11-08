@@ -9,6 +9,10 @@ useEffect(() => {
     fetch('./doctor.json')
     .then(res=>res.json())
     .then(data=> setDoctor(data))
+    .catch(err => {
+        // Do something for an error here
+        console.log("Error Reading data " + err);
+      });
 },[])
     return (
         
@@ -18,7 +22,7 @@ useEffect(() => {
             <div className="doctor-container">
             
             {
-                doctor.map(doctor=> <Singledoctor doctor={doctor} ></Singledoctor>)
+                doctor.map(doctor=> <Singledoctor  doctor={doctor} ></Singledoctor>)
             }
         </div>
        </div>

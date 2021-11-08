@@ -2,11 +2,11 @@ import React from 'react';
 import "./Singledoctor.css"
 
 const Singledoctor = (props) => {
-    const {id,name, Specialist,image} = props.doctor;
+    const {name, Specialist,image} = props.doctor;
     return (
-        <div class="singledoctor">
+        <div className="singledoctor">
             <div >
-                <div class="card">
+                <div className="card">
                 <img src={image}  alt="..."/>
                 <div class="card-body">
                 <h5 class="card-title">{name}</h5>

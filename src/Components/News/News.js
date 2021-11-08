@@ -9,6 +9,10 @@ const News = () => {
         fetch('./news.json')
         .then(res=>res.json())
         .then(data=>setNews(data))
+        .catch(err => {
+            // Do something for an error here
+            console.log("Error Reading data " + err);
+          });
     },[])
     return (
         <div className="mt-11">
@@ -16,7 +20,7 @@ const News = () => {
             <h2>Latest News From Our Blog</h2>
             <div className="news-container">
            {
-                news.map(blog=> <Blogs blog={blog}></Blogs>)
+                news.map(blog=> <Blogs  blog={blog}></Blogs>)
             }
         </div>
         </div>

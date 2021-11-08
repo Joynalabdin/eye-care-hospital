@@ -9,6 +9,10 @@ const Services = () => {
         fetch("./services.JSON")
         .then(res=>res.json())
         .then(data=>setServices(data))
+        .catch(err => {
+            // Do something for an error here
+            console.log("Error Reading data " + err);
+          });
     },[])
     return (
        <div>
@@ -16,7 +20,7 @@ const Services = () => {
             <div className="services-container">
             
             {
-                services.map(service=> <Service service={service}></Service>)
+                services.map(service=> <Service  service={service}></Service>)
             }
             
         </div>
