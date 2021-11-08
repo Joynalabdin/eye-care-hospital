@@ -12,7 +12,7 @@ const News = () => {
     },[])
     return (
         <div className="mt-11">
-            <h1 className="text-primary">News & Blogs</h1>
+            <h1 className="text-primary" id="news" >News & Blogs</h1>
             <h2>Latest News From Our Blog</h2>
             <div className="news-container">
            {

@@ -13,7 +13,7 @@ useEffect(() => {
     return (
         
        <div className="mt-5 ">
-           <h1 className="text-danger">Doctors</h1>
+           <h1 className="text-danger" id="doctors">Doctors</h1>
            <h3>Our Specialist Doctor</h3>
             <div className="doctor-container">
             
