@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
         <div className="container-fluid">
-          <HashLink className="navbar-brand" to="/kaliakpur">Navbar</HashLink>
+          <HashLink className="navbar-brand" to="/kaliakpur">Eye Care Hospital</HashLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
